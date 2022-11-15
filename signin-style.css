@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Footlight MT;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("images/login-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.form{
+    width: 250px;
+    height: 400px;
+    color: whitesmoke;
+    background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+.form h1{
+    width: 220px;
+    text-align: center;
+    padding-left: 11px;
+    font-size: 30px;
+    font-family: Papyrus;
+    font-weight: bold;
+    color: gold;
+    margin-bottom: 20px;
+}
+.form p{
+    padding-bottom: -15px;
+}
+.form input{
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.form input[type="submit"]{
+    width: 60%;
+    margin-left: 50px;
+    border: none;
+    height: 40px;
+    color: orange;
+    background: black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.form input[type="submit"]:hover{
+    background:orange;
+    color: black;
+    font-weight: bold;
+}
+.account{
+    font-family: arial;
+    font-size: 15px;
+}
+a{
+    font-family: arial;
+    text-decoration: none;
+    color: yellow;
+}
+@media screen and (max-width:1000px) {
+    .form{
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 70px 25px;
+    }
+    .form h1{
+        width: 220px;
+        text-align: center;
+        padding-left: 11px;
+        font-size: 25px;
+        font-family: Papyrus;
+        font-weight: bold;
+        color: gold;
+        margin-bottom:20px;
+        margin-top: -35px;
+    }
+}
+@media screen and (max-width:768px) {
+    .form{
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 70px 25px;
+    }
+    .form h1{
+        width: 220px;
+        text-align: center;
+        padding-left: 11px;
+        font-size: 25px;
+        font-family: Papyrus;
+        font-weight: bold;
+        color: gold;
+        margin-bottom:20px;
+        margin-top: -35px;
+    }
+}

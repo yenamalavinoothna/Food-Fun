@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Fun</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="valid.js"></script>
+</head>
+<body> 
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/infinite-logo2.jpg">
+            </div>
+            <nav class="main">
+                <ul>
+                    <li class="active"><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+       
+    </header>
+    <section class="banner" id="home">
+        <img src="images/bg-img2.jpg">
+        <div class="title">
+            <h1>Infinity</h1>
+            <p>Let's taste infinite food...</p>
+        </div>
+        <div class="button">
+            <a href="signin-page.html" class="btn">Sign in</a>
+            <a href="signup-page.html" class="btn">Sign Up</a>
+        </div>
+    </section>
+    <section class="aboutus" id="about">
+        <div class="image">
+            <img src="images/logo3.png">
+        </div>
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Infinity is a restaurant and lounge offering infinite types of food from veg items to no veg items including 
+                snacks and meals.Our sky lounge com restaurant is suitable for your evenings with friends and family.It was
+                born from the idea of two friends whose will was to set up an environment that takes people to heaven with tasty
+                and satisfied food.The history of our establishment started from 2000 as a small food centre, then we developed 
+                it to a stage of restaurant and lounge.
+            </p>
+        </div>
+
+    </section>
+    <section class="contactus" id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your query</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Enter your name" id="name">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" placeholder="Enter your Phone Number" id="mobile">
+                            </div>
+                            <div class="input-group">
+                                <label>Email Id</label>
+                                <input type="email" placeholder="Enter your email id" id="mail">
+                            </div>
+                            
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your message" id="msg"></textarea>
+                        <button type="submit" onclick="contact()">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach us at</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>contactinfinity@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+1 012 345 6789</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>#212, Ground floor, 7th cross<br>
+                            some layout, some road, Koromangla<br>
+                            Bengaluru 560001
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <footer class="foot">
+        <div class="outer-foot">
+            Copyright &copy; Infinity Restaurant. All Rights Reserved
+        </div>
+       
+    </footer>
+</body>
+</html>

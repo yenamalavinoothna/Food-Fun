@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Footlight MT;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("images/dinner2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner{
+    font-family: Gabriola;
+    font-weight: bold;
+    text-align: center;
+    color: cyan;
+    font-size: 30px;
+    margin: 20px;
+}
+.form{
+    width: 700px;
+    height: 350px;
+    color: white;
+    font-weight: 500;
+    background: linear-gradient(rgba(0, 0, 0, 0.4)50%,rgba(0,0,0,0.4)50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 25px;
+    border-radius: 10px;
+}
+.form h3{
+    text-align: center;
+    padding-left: 11px;
+    font-size: 40px;
+    font-family: Gabriola;
+    font-weight: bold;
+    color: orange;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.form p{
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    margin-left: 40px;
+}
+.form input{
+    width: 400px;
+    height: 35px;
+    padding-top: 5px;
+    margin-bottom: 70px;
+    background: lightcyan;
+    border: 1px solid white;
+    color: black;
+    outline:none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    float: right;
+    margin-top: -75px;
+    border-radius: 2px;
+}
+.form input[type="submit"]{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: -5px;
+    border: none;
+    height: 40px;
+    color:black;
+    background: cyan;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    float: right;
+}
+.form input[type="submit"]:hover{
+    background:coral;
+    color: cyan;
+    font-weight: bold;
+}
+@media screen and (max-width:1000px) {
+    .banner{
+        font-size:25px ;
+        text-align: center;
+    }
+    .form{
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 70px 25px;
+    }
+    .form h3{
+        font-size: 30px;
+    }
+    .form p{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .form input{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        float: right;
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner{
+        font-size:20px ;
+        text-align: center;
+    }
+    .form{
+        width: 350px;
+        height: 250px;
+    }
+    .form h3{
+        font-size: 30px;
+    }
+    .form p{
+        padding-bottom: 15px;
+        margin-bottom: 35px;
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .form input{
+        width: 190px;
+        height: 25px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        float: right;
+        margin-top: -70px;
+    }
+}

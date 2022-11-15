@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Footlight MT;
+    scroll-behavior: smooth;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.container{
+    width:86%;
+    margin: 0 auto;
+}
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .container .logo img{
+    float: left;
+    width:80px;
+    height: auto;
+}
+.main ul{
+    list-style: none;
+    float: right;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ul li a{
+    line-height: 80px;
+    color: orange;
+    padding: 12px 30px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-style: groove;
+    transition: 0.6s ease;
+}
+ ul li a:hover{
+    background-color: orange;
+    color:black;
+}
+.banner img{
+    max-width: 100%;
+    vertical-align: top;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    font-family: Papyrus;
+    font-size: 80px;
+    font-weight: bold;
+    color: gold;
+    line-height: 10px;
+}
+.title p{
+    font-family: Rage;
+    font-size: 40px;
+    color: oldlace;
+    padding: 8px;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid silver;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    transition: 0.6s ease;
+}  
+.btn:hover{
+    background-color: orange;
+    color:black;
+}
+.aboutus,.contactus{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 30%;
+    float: left;
+}
+.image img{
+    height: auto;
+    width: 100%;
+}
+.aboutus.container{
+    width: 60%;
+    float: left;
+    margin-left: 30px;
+}
+.aboutus .container h1{
+    font-size: 60px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: coral;
+    font-family: Footlight MT;
+}
+.contactus .container{
+    width: 60%;
+  float: left;
+    margin: 30px auto;
+}
+.contactus .container h1{
+    font-size: 50px;
+    letter-spacing: 3.5px;
+    margin-top: 60px;
+    color: coral;
+}
+.aboutus .container p{
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: Poor Richard;
+    letter-spacing:1px ;
+}
+.contact-box{
+    background: white;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 40%;
+    margin-right: 10px;
+}
+.contact-right{
+    flex-basis: 20%;
+    background: lightcoral;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightcoral;
+    outline: none;
+    padding-bottom: 5px;
+    font-family: calibri;
+}
+textarea{
+    width: 100%;
+    border: 1px solid lightcoral;
+    outline: none;
+    padding: 10px;
+    font-family: calibri;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:lightcoral;
+}
+button{
+    background: coral;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: Footlight MT;
+    font-weight: 400;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(246, 95, 48, 0.6);
+}
+button:hover{
+    background: black;
+    color: coral;
+}
+.contact-left h3{
+    color: darkorange;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-right h3{
+    color:turquoise;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+tr td:first-child{
+    padding-right: 20px;
+    color: azure;
+}
+tr td{
+    padding-top: 20px;
+    color: azure;
+}
+.foot{
+    color: white;
+    background: #3f3f3f;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}

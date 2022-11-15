@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment</title>
+    <link rel="stylesheet" href="pay-style.css">
+    <script src="pay-order.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <div class="top-box">
+            <p>CHECK OUT</p>
+        </div>
+        <div class="middle-box">
+            <h1>Rs.150</h1>
+            <p>Pay to Infinity Restaurant</p>
+        </div>
+        <div class="bottom-box">
+            <button type="button" class="payment-option-btn">Pay after delivery</button>
+            <button type="button" class="payment-option-btn">Pay using NetBanking</button>
+        </div>
+        <div class="card-details">
+            <p>Pay using credit or debit card</p>
+            <div class="card-num">
+                <label>Card Number</label>
+                <input type="text" class="card-num-field" placeholder="xxxx-xxxx-xxxx">
+            </div>
+            <div class="date-field">
+                <label>Expiry Date</label>
+                <input type="date" class="edate-field">
+            </div>
+            <div class="cvc-field">
+                <label>CVC</label>
+                <input type="password" class="cvcfield" placeholder="xxxx">
+            </div>
+            <div class="card-holder">
+                <label>Card Holder Name</label>
+                <input type="text" class="name-field" placeholder="Full name">
+            </div>
+            <button type="button" class="pay-btn" onclick="paid()">Pay Now</button>
+        </div>
+    </div>
+</body>
+</html>

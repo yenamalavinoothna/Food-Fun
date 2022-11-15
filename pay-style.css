@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.app-container{
+    height: 700px;
+    width: 350px;
+    background-image: linear-gradient(#ff7f50,#ff7f50);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.top-box{
+    height:150px;
+    background-color: lightsalmon;
+    border-bottom-left-radius:80px;
+    border-bottom-right-radius:80px;
+}
+.top-box p{
+    text-align: center;
+    color: ghostwhite;
+    font-weight:bold ;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.middle-box{
+    height: 150px;
+    background-image: linear-gradient(#f7845a,#f7845a);
+    margin: -90px 30px 20px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.middle-box h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.payment-option-btn{
+    color: white;
+    margin: 5px 30px;
+    height: 30px;
+    width: 290px;
+    background-color:rgb(239, 100, 49);
+    border: none;
+    border-radius: 5px;
+}
+.card-details{
+    background: white;
+    color: #555;
+    margin: 10px 30px;
+    padding: 10px;
+}
+.card-details p{
+    font-size: 14px;
+}
+.card-details label{
+    font-size: 10px;
+    line-height: 20px;
+}
+.card-num, .date-field, .cvc-field, .card-holder{
+    margin-top: 10px;
+
+}
+.card-num-field, .name-field{
+    width: 250px;
+}
+.date-field, .cvc-field{
+    width: 90px;
+}
+.card-details input{
+    border: 1px solid lightcoral;
+    height: 22px;
+    padding: 5px;
+    font-size: 10px;
+}
+.card-details input::placeholder{
+    color: #ccc;
+}
+.pay-btn{
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+    width: 270px;
+    background-color:rgb(239, 100, 49);
+    border: none;
+    border-radius: 5px;
+}
+.payment-option-btn:hover{
+    color: #ff7f50;
+    background: whitesmoke;
+}
+.pay-btn:hover{
+    color: #ff7f50;
+    background: whitesmoke;
+}
